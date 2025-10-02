@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swoosh - Unleash the Power</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style id="sections-styles">
+/* CSS for section section:header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.logo img {
+  width: 70px;
+  height: 25px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-background-grey);
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.nav-link {
+  padding: 8px 26px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  background-color: var(--color-background-light);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.header-actions img {
+  width: 35px;
+  height: 35px;
+}
+
+@media (max-width: 1024px) {
+  .main-nav {
+    display: none; /* In a real project, this would be replaced by a hamburger menu */
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/* CSS for section section:hero */
+.hero-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-image-wrapper {
+  flex: 1 1 55%;
+}
+
+.hero-image {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.hero-text-content {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  padding-left: 20px;
+}
+
+.sub-hero-content {
+  text-align: center;
+  max-width: 615px;
+  margin: 100px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media (max-width: 900px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-text-content {
+    align-items: center;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  .sub-hero-content {
+    margin-top: 80px;
+  }
+}
+
+/* CSS for section section:features */
+.features-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  overflow: hidden; /* To contain the large image */
+}
+
+.features-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.features-text-content {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.features-text-content .display-font,
+.features-text-content .body-text-md {
+  text-align: left;
+  max-width: 476px;
+}
+
+.features-image-wrapper {
+  flex: 1 1 50%;
+}
+
+.arrow-reversed {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 900px) {
+  .features-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .features-text-content {
+    align-items: center;
+    margin-top: 20px;
+  }
+  .features-text-content .display-font,
+  .features-text-content .body-text-md {
+    text-align: center;
+  }
+}
+
+/* CSS for section section:shop */
+.shop-section {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.shop-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .shop-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .shop-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* CSS for section section:footer */
+.footer-section {
+  background-color: var(--color-background-grey);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .footer-section .display-font {
+    font-size: 32px;
+  }
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header">
+  <header class="site-header main-container">
+    <a href="#" class="logo">
+      <img src="images/e75a53c6d22d4aa6bb270372547a23cf251ac7d3.png" alt="Swoosh Logo">
+    </a>
+    <nav class="main-nav">
+      <a href="#" class="nav-link active">Home</a>
+      <a href="#" class="nav-link">Men</a>
+      <a href="#" class="nav-link">Women</a>
+      <a href="#" class="nav-link">Kids</a>
+      <a href="#" class="nav-link">Shop</a>
+    </nav>
+    <div class="header-actions">
+      <a href="#" aria-label="Wishlist">
+        <img src="images/7ffd6566f2f39b172becb0a097dd6ae01549411f.png" alt="Heart icon">
+      </a>
+      <a href="#" aria-label="Shopping Bag">
+        <img src="images/cad1246a7734f2a81ba72a73f9e69782716d9f63.png" alt="Shopping bag icon">
+      </a>
+    </div>
+  </header>
+</section>
+<section id="hero" class="hero-section">
+  <div class="main-container">
+    <div class="hero-content">
+      <div class="hero-image-wrapper">
+        <img src="images/d2bbc77b7ebfbebbf7a535886743ee8fbd42b3a5.png" alt="A pair of white Nike Air Force 1 sneakers." class="hero-image">
+      </div>
+      <div class="hero-text-content">
+        <h1 class="display-font">Unleash the Swoosh</h1>
+        <p class="body-text-md">Step into a world where speed meets style. The Swoosh isn’t just a symbol — it’s a call to push harder, run faster, and rise higher.</p>
+        <a href="#" class="btn">
+          <span>Shop Now</span>
+          <img src="images/4_323.svg" alt="Arrow icon">
+        </a>
+      </div>
+    </div>
+    <div class="sub-hero-content">
+      <h2 class="display-font">Built to Win</h2>
+      <p class="body-text-md">Champions aren’t born — they’re built. Every rep, every run, every sacrifice shapes the path to victory</p>
+    </div>
+  </div>
+</section>
+<section id="features" class="features-section">
+  <div class="main-container features-content">
+    <div class="features-text-content">
+      <h2 class="display-font">The Power of Motion</h2>
+      <p class="body-text-md">Speed, strength, and flow — that’s the power of motion</p>
+      <a href="#" class="btn">
+        <img src="images/14_27.svg" alt="Arrow icon" class="arrow-reversed">
+        <span>Buy Shoes</span>
+      </a>
+    </div>
+    <div class="features-image-wrapper">
+      <img src="images/87a18ca88c2c89cb73fe5f4a22c1c87eb9faf474.png" alt="A purple and blue Nike running shoe in motion." class="features-image">
+    </div>
+  </div>
+</section>
+<section id="shop" class="shop-section">
+  <div class="main-container">
+    <h2 class="display-font shop-title">Shop</h2>
+    <div class="shop-grid">
+      <div class="product-card">
+        <img src="images/56b279bb5f97d0733a5136f82945c77adcda58b6.png" alt="V2K shoe">
+      </div>
+      <div class="product-card">
+        <img src="images/7082b492f5b749b4e6de0da7510e0029be80d376.png" alt="Metcon shoe">
+      </div>
+      <div class="product-card">
+        <img src="images/69394f55d407fb40090fc1e3d85f522d848363cb.png" alt="Air Max Dn shoe">
+      </div>
+      <div class="product-card">
+        <img src="images/cc4bb610ab99c0ecd60f1e719cbef978ad746c2f.png" alt="Blazer shoe">
+      </div>
+      <div class="product-card">
+        <img src="images/ad97e3e9b74285beec32fa9000a64ce5de2edfb8.png" alt="Dunk shoe">
+      </div>
+      <div class="product-card">
+        <img src="images/29a9f634108407e24a471a615dc019445abae079.png" alt="Cortez shoe">
+      </div>
+      <div class="product-card">
+        <img src="images/48d3c2005c936af4754b6e4c6e9d73c454585c2c.png" alt="Air Jordan 1 shoe">
+      </div>
+      <div class="product-card">
+        <img src="images/7bcbccf4fd0f6751c0902129512e5fa3342626f5.png" alt="Air Force 1 shoe">
+      </div>
+      <div class="product-card">
+        <img src="images/40e227b03a5bb63b413dba187201be3b71bc05b8.png" alt="Dunk shoe">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="footer" class="footer-section">
+  <footer class="main-container">
+    <p class="display-font">Made by Vishw Rana</p>
+  </footer>
+</section>
+</body>
+</html>
